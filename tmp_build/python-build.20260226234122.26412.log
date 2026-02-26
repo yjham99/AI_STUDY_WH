@@ -1,0 +1,47 @@
+~/Desktop/AI PJT /MacOS PJT/Setup_AIstudio/tmp_build/python-build.20260226234122.26412 ~/Desktop/AI PJT /MacOS PJT/Setup_AIstudio
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+access-control-allow-origin: *
+etag: "64d39a40-24a3"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+x-proxy-cache: MISS
+x-github-request-id: 410C:3AFF39:45464D:4A0A40:69A05B8F
+accept-ranges: bytes
+age: 0
+date: Thu, 26 Feb 2026 14:41:22 GMT
+via: 1.1 varnish
+x-served-by: cache-icn1450093-ICN
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1772116882.487323,VS0,VE198
+vary: Accept-Encoding
+x-fastly-request-id: da081c17e6c5044bcab7854d59654c9194dea4fe
+content-length: 9379
+
+~/Desktop/AI PJT /MacOS PJT/Setup_AIstudio/tmp_build/python-build.20260226234122.26412/openssl-3.2.1 ~/Desktop/AI PJT /MacOS PJT/Setup_AIstudio/tmp_build/python-build.20260226234122.26412 ~/Desktop/AI PJT /MacOS PJT/Setup_AIstudio
+Configuring OpenSSL version 3.2.1 for target darwin64-arm64
+Using os-specific seed configuration
+Created configdata.pm
+Running configdata.pm
+Created Makefile.in
+Created Makefile
+Created include/openssl/configuration.h
+
+**********************************************************************
+***                                                                ***
+***   OpenSSL has been successfully configured                     ***
+***                                                                ***
+***   If you encounter a problem while building, please open an    ***
+***   issue on GitHub <https://github.com/openssl/openssl/issues>  ***
+***   and include the output from the following command:           ***
+***                                                                ***
+***       perl configdata.pm --dump                                ***
+***                                                                ***
+***   (If you are new to OpenSSL, you might want to consult the    ***
+***   'Troubleshooting' section in the INSTALL.md file first)      ***
+***                                                                ***
+**********************************************************************
+make: error: couldn't create cache file '/var/folders/7w/qyx701nd3d91tf22nxfn4wbc0000gn/T/xcrun_db-dmdzLNVF' (errno=Operation not permitted)
+make: error: couldn't create cache file '/var/folders/7w/qyx701nd3d91tf22nxfn4wbc0000gn/T/xcrun_db-lIhQ9Ehq' (errno=Operation not permitted)
+make: *** No rule to make target `/Users/hamyoungjin/Desktop/AI', needed by `configdata.pm'.  Stop.
