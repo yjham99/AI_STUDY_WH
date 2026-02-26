@@ -64,3 +64,12 @@ AIzaSyDh5a09y1FivnUg7iLL2r56n21mjXFGDzk
 
 티어1
 AIzaSyBAa7iYCodANd6nsSG_b9k5qTVq5sVBraU
+
+제3장. 확장: 국내 주식 거래 인프라 (내일 진행 예정)
+1. 키움증권 API 환경 구축 (Mac용 우회 전략)
+   - 키움 API는 Windows 전용이므로, Docker(Wine 기반) 또는 별도 윈도우 인스턴스를 활용한 서버 구축 검토.
+   - 32bit/64bit 라이브러리 충돌 방지를 위한 독립 환경 라우팅 설정.
+   - KOA Studio 및 모의투자 환경 연동 테스트.
+
+2. 자동 매매 파이프라인 연결
+   - Jules가 생성한 전략 코드를 키움 API 서버와 연결하는 메시지 큐(Redis 등) 또는 API 게이트웨이 설계.
